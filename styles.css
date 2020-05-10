@@ -1,0 +1,79 @@
+body {
+    background: #ECF1FF;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 3rem;
+}
+.button {
+    text-align: center
+}
+
+button {
+    position: relative;
+    top: 5.5rem;
+    width: 300px;
+    height: 100px;
+    box-shadow: 3px 6px 15px rgba(0, 0, 0, .20);
+    background: #97A5C9;
+    border-radius: 22px;
+    border: currentColor;
+}
+
+button:hover {
+    background: #BECFFA;
+}
+
+.clickB {
+    box-shadow: 2px 4px -10px rgba(0, 0, 0, .20)
+}
+
+#buttonText {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2 {
+    font-size: 2.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 7rem;
+}
+
+h3 {
+    font-size: 6.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    /* display: inline; */
+    position: relative;
+    background: #ECF1FF;
+    top: 9.5rem;
+    /* width: 30%; */
+    text-align: center;
+    /* text-justify: auto; */
+}
+
+h4 {
+    font-size: 6.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    /* display: inline; */
+    position: relative;
+    background: #ECF1FF;
+    top: 13.5rem;
+    /* width: 30%; */
+    text-align: center;
+    /* text-justify: auto; */
+}
+
+@media screen and (max-width: 1023px){
+    html {
+        font-size: 70%;
+    };
+    };
